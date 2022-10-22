@@ -1,0 +1,22 @@
+:root {
+  --primary-bg : #1d2123;
+  --primary-bg-alt :#1b1f1f;
+  --text-grey : #4f524f;
+  --hero-bg : #609eaf;
+  --light :#a5a5a5;
+  --yellow : #facd66;
+  --filter: drop-shadow(1px 1px 1px var(--light));
+  --transition: all 1s ease-in-out;
+  --redfilter: grayscale(100%) brightness(100%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+  --yellowfilter : invert(70%) sepia(65%) saturate(332%) hue-rotate(0deg) brightness(104%) contrast(96%);
+  --whitefilter : brightness(100%) invert(7)
+}
+
+body {
+  background: var(--primary-bg);
+  color: var(--text-grey);
+  user-select: none;
+}
+.margin {
+  margin: 1rem 0;
+}
